@@ -1,0 +1,19 @@
+{
+    "name": "sojf/dbal",
+    "description": "Sojf DBAL Component",
+    "keywords": ["database", "mysql"],
+    "require": {
+        "php": ">=5.5.9",
+        "sojf/config": "1.0.*"
+    },
+    "support": {
+      "issues": "https://github.com/sojf/dbal/issues",
+      "source": "https://github.com/sojf/dbal"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sojf\\DBAL\\": "src/"
+        }
+    }
+}
